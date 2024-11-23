@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+- clean: ['~', '~/.config']
+
+- clean:
+    ~/.config:
+      recursive: true
+- link:
+    ~/.gitconfig:
+    ~/.bash:
+    ~/.bashrc:
+    ~/.bash_profile:
+    ~/.zshrc:
+    ~/.vimrc:
+    ~/.config/alacritty/alacritty.yml:
+    ~/.tmux.conf:
+    ~/.zsh:
+    ~/.leetcode/leetcode.toml:
+      force: true
+- shell:
+    - git submodule sync --recursive

@@ -1,0 +1,18 @@
+[code]
+editor = 'vim'
+lang = 'python3'
+# if include problem description
+comment_problem_desc = true
+# comment syntax
+comment_leading = "#"
+test = true
+
+[cookies]
+csrf = ''
+session = ''
+
+[storage]
+cache = 'Problems'
+code = 'code'
+root = '~/.leetcode'
+scripts = 'scripts'
