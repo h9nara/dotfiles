@@ -17,6 +17,7 @@
     ~/.config/alacritty/alacritty.yml:
     ~/.tmux.conf:
     ~/.zsh:
+    ~/.claude:
     ~/.leetcode/leetcode.toml:
       force: true
 - shell:
