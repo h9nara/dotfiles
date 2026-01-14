@@ -16,6 +16,7 @@
     ~/.vimrc:
     ~/.config/alacritty/alacritty.yml:
     ~/.tmux.conf:
+    ~/.config/ghostty/config: ghostty/config
     ~/.zsh:
     ~/.claude:
     ~/.leetcode/leetcode.toml:
