@@ -8,6 +8,7 @@
     ~/.config:
       recursive: true
 - link:
+    ~/.aerospace.toml:
     ~/.gitconfig:
     ~/.bash:
     ~/.bashrc:
