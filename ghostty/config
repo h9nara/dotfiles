@@ -3,3 +3,6 @@
 
 theme = 3024 day
 
+# 将 Cmd + Enter 绑定为切换 Quick Terminal
+# global: 前缀意味着即使 Ghostty 没有焦点，你也可以呼出它
+keybind = global:cmd+enter=toggle_quick_terminal

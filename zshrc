@@ -1,3 +1,5 @@
+source "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
+
 # 6.S081 Labs environment setup
 PATH=/usr/local/bin:$PATH
 PATH=$PATH:/usr/local/opt/riscv-gnu-toolchain/bin
@@ -28,3 +30,6 @@ prompt spaceship
 source ~/.zsh/plugins.zsh
 # export PATH="/opt/homebrew/opt/go@1.16/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/han/.antigravity/antigravity/bin:$PATH"
