@@ -132,7 +132,15 @@ if.app-id = 'com.mitchellh.ghostty'
 run = 'layout tiling'
 
 [[on-window-detected]]
-if.app-id = 'io.readwise.read '
+if.app-id = 'io.readwise.read'
+run = 'layout tiling'
+
+[[on-window-detected]]
+if.app-id = 'com.google.antigravity'
+run = 'layout tiling'
+
+[[on-window-detected]]
+if.app-id = 'app.projectmeta.projectmeta'
 run = 'layout tiling'
 
 [mode.main.binding]

@@ -30,3 +30,6 @@ export EDITOR=vim
 autoload run-help
 HELPDIR=/usr/share/zsh/"${ZSH_VERSION}"/help
 alias help=run-help
+
+#zoxide
+eval "$(zoxide init zsh)"
