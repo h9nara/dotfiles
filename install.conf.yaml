@@ -19,7 +19,8 @@
     ~/.tmux.conf:
     ~/.config/ghostty/config: ghostty/config
     ~/.zsh:
-    ~/.claude:
+    ~/.claude/settings.json: claude/settings.json
+    ~/.claude/keybindings.json: claude/keybindings.json
     ~/.leetcode/leetcode.toml:
       force: true
 - shell:

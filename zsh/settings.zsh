@@ -33,3 +33,22 @@ alias help=run-help
 
 #zoxide
 eval "$(zoxide init zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+# Uncomment this to use fzf default key bindings
+source <(fzf --zsh)
+
+# # 1. 禁用 fzf 默认的快捷键绑定
+# export FZF_CTRL_R_COMMAND=""
+# export FZF_CTRL_T_COMMAND=""
+
+# # 2. 加载 fzf 的 Shell 集成
+# source <(fzf --zsh)
+
+# # 3. 手动将 fzf 的内部功能绑定到 Alt+R 和 Alt+T (此部分为外部知识)
+# # 在终端中，Alt 键通常用 ^[ 表示
+# bindkey '^[r' fzf-history-widget  # 将 Alt+R 绑定到 fzf 历史搜索
+# bindkey '^[t' fzf-file-widget     # 将 Alt+T 绑定到 fzf 文件搜索
+
+# # 4. 可选：如果你想把 Ctrl+R 恢复为 zsh 自带的、没有 fzf 的默认历史搜索
+# bindkey '^R' history-incremental-search-backward
